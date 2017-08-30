@@ -1,0 +1,18 @@
+<App Background="#2586EC">
+    <DockPanel>
+        <JavaScript File="MainView.js"/>
+
+        <StackPanel Dock="Top" Background="#2586EC">
+            <StatusBarBackground/>
+            <Fuse.iOS.StatusBarConfig Style="Light"/>
+        </StackPanel>
+
+        <BottomBarBackground Dock="Bottom" />
+
+        <StackPanel Width="90%" Height="90%" Padding="20">
+            <Rectangle Layer="Background" CornerRadius="10" Color="#fff"/>
+            <Text Value="NFC Test" Alignment="Center" FontSize="35" TextColor="#2586EC"/>
+            <TextView Value="{info}" Height="200" TextWrapping="Wrap"/>
+        </StackPanel>
+    </DockPanel>
+</App>

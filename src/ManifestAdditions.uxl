@@ -1,0 +1,8 @@
+<Extensions Backend="CPlusPlus" Condition="Android">
+    <Require AndroidManifest.ActivityElement><![CDATA[
+		<intent-filter>
+			<action android:name="android.nfc.action.TAG_DISCOVERED"/>
+			<category android:name="android.intent.category.DEFAULT"/>
+		</intent-filter>
+    ]]></Require>
+</Extensions>
