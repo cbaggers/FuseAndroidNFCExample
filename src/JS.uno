@@ -80,6 +80,6 @@ namespace Fuse.NFC
     extern(!android)
     class Scanner
     {
-        public void Init() {}
+        public static void Init() {}
     }
 }
